@@ -1,5 +1,5 @@
 import random
-# Rock-paper-scissors-lizard-Spock template
+# Rock-paper-scissors-lizard-Spock
 
 
 # The key idea of this program is to equate the strings
@@ -24,10 +24,10 @@ import random
     #Scissors ganha Paper
     #Scissors ganha Lizard
 
-# helper functions
+# Funções
 
 def name_to_number(name):
-    # delete the following pass statement and fill in your code below
+    
     if (name == 'rock'):
         return 0
     elif (name == 'Spock'):
@@ -42,7 +42,7 @@ def name_to_number(name):
         return 'Erro'
     
 def number_to_name(number):
-    # delete the following pass statement and fill in your code below
+    
     if (number == 0):
         return 'rock'
     elif (number == 1):
@@ -58,7 +58,6 @@ def number_to_name(number):
     
 
 def rpsls(player_choice): 
-    # delete the following pass statement and fill in your code below
     
     print 'Players choice '+ player_choice
 
@@ -84,12 +83,9 @@ def rpsls(player_choice):
     print ''
 
     
-# test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
+# Chamadas para testar o código
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
-
-# always remember to check your completed program against the grading rubric
-
