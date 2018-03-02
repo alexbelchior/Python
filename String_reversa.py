@@ -8,3 +8,11 @@ def solution(texto):
     return nString
   
 print(solution(texto))
+
+
+
+string = "chamada"
+def solution(string):
+    return ''.join(i for i in reversed(string))    
+
+print(solution(string))
